@@ -1,0 +1,24 @@
+{
+  "name": "@hovey/eslint-config-ts",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "lvyunlong",
+  "license": "MIT",
+  "dependencies": {
+    "@hovey/eslint-config-basic": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.18.0",
+    "@typescript-eslint/parser": "^5.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
