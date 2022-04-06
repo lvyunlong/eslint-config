@@ -2,13 +2,16 @@
   "name": "@hovey/eslint-config-basic",
   "version": "0.0.1",
   "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "lvyunlong",
   "main": "index.js",
   "scripts": {
     "lint": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "lvyunlong",
-  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
   "dependencies": {
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^6.2.0",
@@ -24,9 +27,6 @@
   },
   "devDependencies": {
     "eslint": "^8.12.0"
-  },
-  "peerDependencies": {
-    "eslint": ">=7.4.0"
   },
   "publishConfig": {
     "access": "public"
