@@ -1,5 +1,5 @@
 module.exports = {
   extends: [
-    '@hovey/eslint-config-vue',
+    '@lvyunlong/eslint-config-vue',
   ],
 }

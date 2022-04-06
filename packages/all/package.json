@@ -1,5 +1,5 @@
 {
-  "name": "@hovey/eslint-config",
+  "name": "@lvyunlong/eslint-config",
   "version": "1.1.2-beta.2",
   "description": "",
   "keywords": [],
@@ -10,7 +10,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@hovey/eslint-config-vue": "workspace:*",
+    "@lvyunlong/eslint-config-vue": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.18.0",
     "@typescript-eslint/parser": "^5.18.0",
     "eslint-plugin-eslint-comments": "^3.2.0",

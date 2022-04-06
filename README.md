@@ -1,4 +1,4 @@
-# @hovey/eslint-config
+# @lvyunlong/eslint-config
 
 - Single quotes, no semi
 - Auto fix for formatting (aimed to be used standalone without Prettier)
@@ -12,14 +12,14 @@
 ### Install
 
 ```bash
-pnpm add -D eslint @hovey/eslint-config
+pnpm add -D eslint @lvyunlong/eslint-config
 ```
 
 ### Config `.eslintrc`
 
 ```json
 {
-  "extends": "@hovey"
+  "extends": "@lvyunlong"
 }
 ```
 

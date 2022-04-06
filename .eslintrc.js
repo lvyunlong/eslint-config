@@ -1,3 +1,3 @@
 module.exports = {
-  extends: '@hovey',
+  extends: '@lvyunlong',
 }
