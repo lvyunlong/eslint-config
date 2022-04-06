@@ -1,13 +1,16 @@
 {
   "name": "@hovey/eslint-config-monorepo",
-  "version": "0.0.1",
+  "version": "1.0.0-beta.1",
   "private": true,
   "scripts": {
     "lint": "eslint .",
-    "fix": "eslint --fix ."
+    "fix": "eslint --fix .",
+    "prepare": "pnpm -r run stub",
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
   },
   "devDependencies": {
     "@hovey/eslint-config": "workspace:*",
+    "bumpp": "^7.1.1",
     "eslint": "^8.12.0",
     "typescript": "^4.6.3"
   }
